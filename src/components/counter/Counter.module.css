@@ -53,6 +53,14 @@ button {
 
 @media (max-width: 768px) {
   .h1 {
-    font-size: 20px;
-  }   
+    font-size: 14px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }  
+  .counter {
+    width: 360px;
+  }
+  .count {
+    margin-left: 25px;
+  }
 }
