@@ -1,0 +1,53 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.console {
+	display: flex;
+	justify-content: space-around;
+
+}
+.imagePlayStation {
+	border-radius: 10px;
+	width: 375px;
+	min-height: 250px;
+}
+.imageXbox {
+	border-radius: 10px;
+	width: 375px;
+	min-height: 250px;
+}
+.consoleTitle {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #ffffff;
+	padding-top: 10px;
+	padding-left: 8px;
+}
+.p {
+	font-size: 14px;
+	color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .console {
+        flex-direction: column;
+		justify-content: center;
+
+    }
+    .imagePlayStation {
+		border-radius: 10px;
+		width: 320px;
+		min-height: 170px;
+		
+	}
+	.imageXbox {
+		border-radius: 10px;
+		width: 320px;
+		min-height: 170px;
+	}
+	.p {
+		font-size: 12px;
+	}
+}

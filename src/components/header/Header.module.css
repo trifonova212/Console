@@ -1,0 +1,26 @@
+.header {
+	background: #000000;
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {
+	width: 400px;
+	font-size: 28px;
+	line-height: 33px;
+	color: #fff;
+	margin-left: 20px;
+	font-weight: 400;
+}
+
+
+@media (max-width: 768px) {
+	.title {
+		width: 400px;
+		font-size: 20px;
+		line-height: 33px;
+		color: #fff;
+		margin-left: 20px;
+		font-weight: 400;
+	}
+}

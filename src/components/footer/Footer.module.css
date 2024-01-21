@@ -1,0 +1,20 @@
+.footer {
+	height: 55px;
+	color: #fff;
+	display: flex;
+	padding: 0 20px;
+	align-items: center;
+	background-color: #000000;
+}
+
+.copy {
+	margin-left: auto;
+}
+
+@media (max-width: 768px) {
+    .copy  {
+		margin-left: 20px;
+
+    }
+
+}
