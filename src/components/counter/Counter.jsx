@@ -2,7 +2,7 @@ import css from './Counter.module.css'
 import { useState} from "react";
 
 export default function Counter () {
-	const [count, setCount] = useState(JSON.parse(localStorage.getItem("count")) || 0);
+	const [count, setCount] = useState(JSON.parse(localStorage.getItem("count")) || 20000);
 	const [quantity, setQuantity] = useState(0);
 
 

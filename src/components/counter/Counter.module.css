@@ -49,6 +49,12 @@ button {
 .count {
   font-size: 60px;
   color: #fff;
+  border-radius: 45px;
+	width: 230px;
+	height: 66px;
+	background-color: black;
+  text-align: center;
+  padding: 5px;
 }
 
 @media (max-width: 768px) {
