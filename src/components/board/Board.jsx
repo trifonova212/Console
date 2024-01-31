@@ -19,7 +19,7 @@ const Board = () => {
                         Память — SSD, NVME 825 ГБ (на скорости от 5,5 до 9 гигабайт в секунду),<br/>
                         поддержка сторонних   SSD (NVMe)<br/>
                         Дисковод — 4К UHD Blu-Ray<br/>
-                        Стоимость ≈ 60000 ₽</p>
+                        Стоимость ≈ 70000 ₽</p>
                 </div>
                 <div>
                     <h2 className={css.consoleTitle}>Xbox Series X</h2>
