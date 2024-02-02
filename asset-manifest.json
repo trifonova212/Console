@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Console/static/css/main.7adcb002.css",
-    "main.js": "/Console/static/js/main.8b6d7c9e.js",
+    "main.css": "/Console/static/css/main.7915f1c5.css",
+    "main.js": "/Console/static/js/main.35ad2308.js",
     "static/media/PlayStation.png": "/Console/static/media/PlayStation.aa5baf47bc83ad13ddb5.png",
     "static/media/1.png": "/Console/static/media/1.ecbc4fca5fe4b9376f87.png",
     "static/media/Xbox.jpg": "/Console/static/media/Xbox.116deddb28c5ab532149.jpg",
     "index.html": "/Console/index.html",
-    "main.7adcb002.css.map": "/Console/static/css/main.7adcb002.css.map",
-    "main.8b6d7c9e.js.map": "/Console/static/js/main.8b6d7c9e.js.map"
+    "main.7915f1c5.css.map": "/Console/static/css/main.7915f1c5.css.map",
+    "main.35ad2308.js.map": "/Console/static/js/main.35ad2308.js.map"
   },
   "entrypoints": [
-    "static/css/main.7adcb002.css",
-    "static/js/main.8b6d7c9e.js"
+    "static/css/main.7915f1c5.css",
+    "static/js/main.35ad2308.js"
   ]
 }
