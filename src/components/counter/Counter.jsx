@@ -2,20 +2,21 @@ import css from './Counter.module.css'
 import { useState} from "react";
 
 export default function Counter () {
-	const [count, setCount] = useState(JSON.parse(localStorage.getItem("count")) || 20000);
+	//const [count, setCount] = useState(JSON.parse(localStorage.getItem("count")) || 50400);
+	const [count, setCount] = useState(50400);
 	const [quantity, setQuantity] = useState(0);
 
 
 	const handleOnChange = (e) => {
 	  setQuantity(e.target.value);
-	  localStorage.setItem("count", JSON.stringify(count));
+	//  localStorage.setItem("count", JSON.stringify(count));
 	};
   
 	const handleSubtractQuantity = () => {
 		if (quantity) {
 		  const newCount = count - parseInt(quantity, 10);
 		  setCount(newCount);
-		  localStorage.setItem("count", JSON.stringify(newCount));
+	//	  localStorage.setItem("count", JSON.stringify(newCount));
 		}
 		setQuantity('0');
 	  };
@@ -24,7 +25,7 @@ export default function Counter () {
 		if (quantity) {
 		  const newCount = count + parseInt(quantity, 10);
 		  setCount(newCount);
-		  localStorage.setItem("count", JSON.stringify(newCount));
+	//	  localStorage.setItem("count", JSON.stringify(newCount));
 		}
 		setQuantity('0');
 	  };
